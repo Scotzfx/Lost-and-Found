@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="791.0" stylesheets="@registerui.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lostfound.RegisterUIController">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="658.0" prefWidth="791.0" stylesheets="@/CSS/registerui.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegisterUIController">
     <children>
         <!-- Header content remains unchanged -->
         <VBox alignment="CENTER" spacing="10.0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="20.0">
@@ -20,7 +20,7 @@
                     <children>
                         <ImageView fitHeight="54.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3">
                             <image>
-                                <Image url="@LFlogo.png" />
+                                <Image url="@/IMG/LFlogo.png" />
                             </image>
                         </ImageView>
                         <Label fx:id="BISU" maxWidth="520.0" text="Bohol Island State University Lost &amp; Found System" textAlignment="CENTER" wrapText="true">
@@ -30,7 +30,7 @@
                         </Label>
                         <ImageView fitHeight="62.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3">
                             <image>
-                                <Image url="@BISUlogo.png" />
+                                <Image url="@/IMG/BISUlogo.png" />
                             </image>
                         </ImageView>
                     </children>
